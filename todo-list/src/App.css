@@ -1,0 +1,39 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 100px;
+  background-color: aliceblue;
+}
+
+.todo-item p {
+  margin: 0;
+  flex-grow: 1;
+}
+/* /root/.npm/_logs/2024-04-25T09_27_06_915Z-debug-0.log */
+
+.todo-item button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a28be2; /* Set background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set height to full viewport height */
+}
